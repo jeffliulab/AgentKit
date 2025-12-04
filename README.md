@@ -2,6 +2,8 @@
 
 **AgentKit** is an extensible AI Agent infrastructure framework designed for developers to rapidly build, customize, and deploy tool-augmented agents. It includes example functionalities focused on **financial** and **pharmaceutical** domains to demonstrate real-world applications.
 
+![alt text](docs/framework.png)
+
 ---
 
 ## Version
@@ -24,24 +26,24 @@ AgentKit/
 
 ---
 
-## ✨ Features
+## Features
 
-- ✅ **LLM-Powered Dialogue Agent**  
+- **LLM-Powered Dialogue Agent**  
   Built on top of large language models (LLMs) such as [DeepSeek](https://www.deepseek.com/) or OpenAI GPT. Supports multi-turn conversations and instruction following.
 
-- 🧰 **Tool-Augmented Reasoning**  
+- **Tool-Augmented Reasoning**  
   Automatically detects when a tool is needed and routes the request to the `OpenManus` toolchain. Tools include:
   - Web search & browser automation
   - Report downloading & parsing
   - Financial calculations & document analysis
 
-- 🌐 **Web Interface with Gradio**  
+- **Web Interface with Gradio**  
   Clean UI for chat interaction. Includes real-time streaming output and tool execution status updates.
 
-- 🧾 **Finance & Pharma Use Cases**  
+- **Finance & Pharma Use Cases**  
   Example prompts and system behavior customized for financial analysts and pharma researchers.
 
-- 🪵 **Detailed Logging**  
+- **Detailed Logging**  
   Rich log system with file rotation, separated logs for LLM and tools, and real-time debugging support.
 
 ---
